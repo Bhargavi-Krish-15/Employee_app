@@ -1,0 +1,22 @@
+
+
+<div class="jumbotron jumbotron-fluid"  >
+  <h1 class="display-4"><%= @employee.Name %></h1>
+  <p class="lead">Age: <%= @employee.Age %>  |  Gender: <%= @employee.Gender %></p>
+  <hr class="my-4">
+  <p><h1 class="display-4"><%= @employee.Designation %></h1></p>
+  <br><br>
+  <p class="lead">
+    <%= link_to 'Edit', edit_employee_path(@employee), class:"btn btn-dark" %> 
+    <%= link_to 'Back', employees_path , class:"btn btn-dark"%>
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
