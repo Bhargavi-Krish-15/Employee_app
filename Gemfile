@@ -27,6 +27,6 @@ group :test do
   gem 'webdrivers',         '4.6.0'
 end
 
-group :production do
-  gem 'pg', '1.2.3'
-end
+# group :production do
+#   gem 'pg', '1.2.3'
+# end
